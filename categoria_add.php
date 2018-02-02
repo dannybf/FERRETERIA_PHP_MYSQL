@@ -1,4 +1,8 @@
+<?php
 
+  include("function/conexion.php");
+
+?>
 <!doctype html>
 <html lang="en">
   <?php Include("function/header.php"); ?>
@@ -10,8 +14,17 @@
 
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+       <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+      </form>
+
+    </div>
 
     </main><!-- /.container -->
 
