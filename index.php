@@ -1,26 +1,31 @@
-
-<!doctype html>
-<html lang="en">
-  <?php Include("function/header.php"); ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DANIE SANCHEZ WEB</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stilo.css">
+  </head>
 
   <body>
-    <?php Include("function/menu.php"); ?>
+    <header>
+     <input type="checkbox" id="btn-menu">
+     <label for="btn-menu"><img src="img/logo.png"></label>
 
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-    </main><!-- /.container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+      <nav id="menu">
+        <ul>
+          <li><a href="">Diseños Web</a></li>
+          <li><a href="">Letras</a></li>
+          <li><a href="">Arte</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+      <form>
+        <h2>Login</h2>
+        <input type="text" placeholder="usuario" name="usuario">
+        <input type="password" name="clave">
+        <input type="submit" value="Login" name="Login">
+      </form>
   </body>
 </html>

@@ -12,19 +12,14 @@
 
     <main role="main" class="container">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-       <form>
-        <div class="form-group">
+     <form >
+        <div>
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         <button type="submit" class="btn btn-primary">Submit</button>
-        
-      </form>
+    </form>
 
-    </div>
 
     </main><!-- /.container -->
 

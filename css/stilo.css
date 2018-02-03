@@ -1,0 +1,47 @@
+body {
+	margin:0;
+	font-family: sans-serif;
+
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background: #FAC34E;
+}
+
+#btn-menu {
+	display: none;
+}
+
+header label {
+	margin:0;
+	display: block;
+	width: 30px;
+	height: 6px;
+	padding: 15px;
+}
+
+header label:hover {
+	cursor: pointer;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#menu li:hover {
+	background: #B88E37;
+}
+
+#menu li a {
+	margin: 10;
+	padding: 15px 20px;
+	font-size: 350%;
+	color: #fff;
+	text-decoration: none;
+}
